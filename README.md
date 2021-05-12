@@ -39,6 +39,6 @@ python main.py --aggregator GCN --feature_type uniform --in_file data/DTI.edgeli
 To run CSGNN with GIN decoder on DDI network using "position" as initial features and output the result to test.txt, execute the following command:
 
 ```shell
-python main.py --aggregator GIN --feature_type one_hot --in_file data/DDI.edgelist --out_file test.txt
+python main.py --aggregator GIN --feature_type position --in_file data/DDI.edgelist --out_file test.txt
 ```
 
